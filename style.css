@@ -1,0 +1,56 @@
+/* Use the Bootstrap "solar" theme */
+@import "https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css";
+
+/* Add some custom styles to make it look futuristic */
+body {
+  background-color: #fdf6e3;
+  color: #002b36;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  color: #cb4b16;
+}
+
+#search-history a {
+  color: #002b36;
+  text-decoration: none;
+}
+
+#current-weather {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#current-weather img {
+  width: 50px;
+}
+
+#forecast-table {
+  border: none;
+  border-radius: 5px;
+}
+
+#forecast-table th,
+#forecast-table td {
+  background-color: #fff;
+  border-top: none;
+}
+
+#forecast-table img {
+  width: 50px;
+}
+
+#forecast-chart {
+  margin: 0 auto;
+}
+
+#forecast-chart .chart-legend li {
+  color: #002b36;
+}
+
